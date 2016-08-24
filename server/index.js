@@ -8,7 +8,8 @@ app.set('port', port)
 
 app.get('/', function(req, res){
 	res.json({
-		confirmation:'success'
+		confirmation:'success',
+		message:'hello world'
 	})
 })
 
